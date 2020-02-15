@@ -1,0 +1,14 @@
+.navbar {
+  position: fixed;
+  background: #45c8dc;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  z-index: 99;
+}
+
+.navbar picker {
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 26px;
+}
