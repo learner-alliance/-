@@ -1,0 +1,94 @@
+<view>
+     <view>
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+            <!-- 最初始时的搜索框 -->
+            <navigator url="jump/jump">
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input disabled type="text" class="weui-search-bar__input" placeholder="输入关键字搜索"/>
+                </view>
+                 </navigator>
+            </view>
+        </view>
+    </view>
+</view>
+<!--轮播图-->
+<view class="page-section page-section-spacing swiper">
+  <swiper duration="500" indicator-dots=" " interval="2000" autoplay="true" current="0" current-item-id="">
+    <swiper-item style="position: absolute;width: 100%;height: 100%;transform: translate(5%,0px)translateZ(0px);">
+      <image class="image" src="https://7465-test-820149-1259126597.tcb.qcloud.la/53.jpg?sign=ebb552576ed0617d08c09a81a35bb698&t=1567849079" />
+    </swiper-item>
+    <swiper-item style="position: absolute;width: 100%;height: 100%;transform: translate(105%,0px)translateZ(0px);">
+      <image class="image" src="https://7465-test-820149-1259126597.tcb.qcloud.la/53.jpg?sign=ebb552576ed0617d08c09a81a35bb698&t=1567849079" />
+    </swiper-item>
+    <swiper-item style="position: absolute;width: 100%;height: 100%;transform: translate(205%,0px)translateZ(0px);">
+      <image class="image" src="https://7465-test-820149-1259126597.tcb.qcloud.la/53.jpg?sign=ebb552576ed0617d08c09a81a35bb698&t=1567849079" />
+    </swiper-item>
+  </swiper>
+</view>
+<!--购物车-->
+<!-- 分类 -->
+<view class='fenlei'>
+  <navigator url='../mall/health/health' class='navi navi-zahuopu'>
+    <view class='leibie fenlei-zahuopu'>
+      <image src='../../images/xuexi7.png'></image>
+      <view>大学必备</view>
+    </view>
+  </navigator>
+  <navigator url='../mall/health/health' class='navi navi-jianzhi'>
+    <view class='leibie fenlei-jianzhi'>
+      <image src='../../images/xuexi4.png'></image>
+      <view>研学资料</view>
+    </view>
+  </navigator>
+  <navigator url='../mall/health/health' class='navi navi-jishou'>
+    <view class='leibie fenlei-jishou'>
+      <image src='../../images/xuexi9.png'></image>
+      <view>学长秘籍</view>
+    </view>
+  </navigator>
+  <navigator url='../mall/car/car' class='navi navi-gongyi'>
+    <view class='leibie fenlei-gongyi'>
+      <image src='../../images/shop1.png'></image>
+      <view>购物车</view>
+    </view>
+  </navigator>
+</view>
+
+ <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">今日推荐</view>
+            <view class="weui-panel__bd">
+
+
+                <navigator url="../mall/details/details" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon60}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">杨雪松</view>
+                        <view class="weui-media-box__desc">唐山学院2017级计算机科学与技术系软件工程专业1班学生</view>
+                    </view>
+                </navigator>
+
+
+                <navigator url="../mall/details/details" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon60}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">姚艺程</view>
+                        <view class="weui-media-box__desc">唐山学院2017级计算机科学与技术系软件工程专业1班学生</view>
+                    </view>
+                </navigator>
+            </view>
+
+            <navigator url="../mall/health/health" >
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+           </navigator>
+        </view>
